@@ -1,0 +1,104 @@
+{
+  "classrooms": [
+    {
+      "room_number": "101",
+      "building": "Main",
+      "floor": 1,
+      "demo_mode": true,
+      "simulated_presence": true
+    },
+    {
+      "room_number": "102",
+      "building": "Main",
+      "floor": 1,
+      "demo_mode": true,
+      "simulated_presence": false
+    },
+    {
+      "room_number": "201",
+      "building": "Science",
+      "floor": 2,
+      "demo_mode": true,
+      "simulated_presence": false
+    },
+    {
+      "room_number": "202",
+      "building": "Science",
+      "floor": 2,
+      "demo_mode": false,
+      "simulated_presence": false
+    },
+    {
+      "room_number": "D1",
+      "building": "Demo Wing",
+      "floor": 1,
+      "demo_mode": true,
+      "simulated_presence": true
+    },
+    {
+      "room_number": "D2",
+      "building": "Demo Wing",
+      "floor": 1,
+      "demo_mode": true,
+      "simulated_presence": false
+    }
+  ],
+  "patterns": [
+    {
+      "room_number": "101",
+      "building": "Main",
+      "days": [1, 2, 3, 4, 5],
+      "blocks": [
+        { "start_time": "07:30", "end_time": "09:00", "subject": "Mathematics", "section": "Grade 10 - A", "instructor": "M. Santos" },
+        { "start_time": "09:15", "end_time": "10:45", "subject": "Science", "section": "Grade 10 - A", "instructor": "R. Reyes" },
+        { "start_time": "11:00", "end_time": "12:30", "subject": "English", "section": "Grade 10 - A", "instructor": "A. Cruz" },
+        { "start_time": "13:00", "end_time": "14:30", "subject": "Filipino", "section": "Grade 10 - A", "instructor": "L. Garcia" },
+        { "start_time": "14:45", "end_time": "16:15", "subject": "MAPEH", "section": "Grade 10 - A", "instructor": "J. Lim" }
+      ]
+    },
+    {
+      "room_number": "102",
+      "building": "Main",
+      "days": [1, 2, 3, 4, 5],
+      "blocks": [
+        { "start_time": "07:30", "end_time": "09:00", "subject": "Science", "section": "Grade 10 - B", "instructor": "R. Reyes" },
+        { "start_time": "09:15", "end_time": "10:45", "subject": "Mathematics", "section": "Grade 10 - B", "instructor": "M. Santos" },
+        { "start_time": "11:00", "end_time": "12:30", "subject": "Filipino", "section": "Grade 10 - B", "instructor": "L. Garcia" },
+        { "start_time": "13:00", "end_time": "14:30", "subject": "English", "section": "Grade 10 - B", "instructor": "A. Cruz" },
+        { "start_time": "14:45", "end_time": "16:15", "subject": "Values Education", "section": "Grade 10 - B", "instructor": "P. Dela Cruz" }
+      ]
+    },
+    {
+      "room_number": "201",
+      "building": "Science",
+      "days": [2, 4],
+      "blocks": [
+        { "start_time": "13:00", "end_time": "14:30", "subject": "Research", "section": "Grade 10 - C", "instructor": "S. Navarro" }
+      ]
+    },
+    {
+      "room_number": "202",
+      "building": "Science",
+      "days": [1, 2, 3, 4, 5],
+      "blocks": [
+        { "start_time": "09:00", "end_time": "10:30", "subject": "Physics", "section": "Grade 10 - C", "instructor": "H. Bautista" }
+      ]
+    },
+    {
+      "room_number": "D1",
+      "building": "Demo Wing",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "blocks": [
+        { "start_time": "00:00", "end_time": "23:59", "subject": "Sample scheduled class", "section": "SAMPLE", "instructor": "Replace with a real instructor" }
+      ]
+    },
+    {
+      "room_number": "D2",
+      "building": "Demo Wing",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "blocks": [
+        { "start_time": "00:00", "end_time": "23:59", "subject": "Sample scheduled class", "section": "SAMPLE", "instructor": "Replace with a real instructor" }
+      ]
+    }
+  ]
+}

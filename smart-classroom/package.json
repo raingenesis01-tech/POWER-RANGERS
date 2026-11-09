@@ -1,0 +1,14 @@
+{
+  "name": "smart-classroom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Classroom occupancy detection and scheduling for an ESP32 sensor, Blynk, and a local website.",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "node --test backend/classify.test.js backend/integration.test.js"
+  }
+}
